@@ -3,9 +3,13 @@
     border-radius: 6px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #ffff;
-    background-color: #333;
+
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #404040b5;
+    background: rgba(98, 123, 161, 0.2);
 }
 
 .top,
