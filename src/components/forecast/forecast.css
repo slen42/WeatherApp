@@ -1,6 +1,8 @@
 .title{
     font-size: 23px;
     font-weight: 700;
+    color: azure;
+    padding-left: 10px;
 }
 
 .daily-item{
@@ -48,7 +50,12 @@
     display: grid;
     flex: 1 1;
     grid-template-columns: auto auto;
-    padding: 5px 15px;
+    padding: 10px 10px 0px 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #404040b5;
+    background: rgba(98, 123, 161, 0.2);
+    border-radius: 20px;
 }
 
 .daily-details-grid-item{
@@ -56,6 +63,7 @@
     height: 30px;
     justify-content: space-between;
     align-self: center;
+    
 }
 
 .daily-details-grid-item label:first-child{
